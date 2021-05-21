@@ -1,8 +1,0 @@
-<div *ngFor="let obj of myArray; let i = index;">
-  {{obj | json}}
-  <div>
-    <input [(ngModel)]="newItemInArray" type="text" />
-    <button (click)="addNewItemToArray(i + 1)">Add new Item</button>
-  </div>
-  <!-- Some Comment To Commit To Branch -->
-</div>
